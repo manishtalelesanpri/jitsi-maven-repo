@@ -1,0 +1,10 @@
+// jitsi-meet-sdk-1.0.0.module (optional for modern Gradle)
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.jitsi.react",
+    "module": "jitsi-meet-sdk",
+    "version": "1.0.0",
+    "attributes": {}
+  }
+}

@@ -1,0 +1,14 @@
+<!-- Content of jitsi-meet-sdk-1.0.0.pom -->
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.jitsi.react</groupId>
+  <artifactId>jitsi-meet-sdk</artifactId>
+  <version>1.0.0</version>
+  <dependencies>
+    <dependency>
+      <groupId>com.facebook.react</groupId>
+      <artifactId>react-native</artifactId>
+      <version>0.71.3</version>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,26 @@
+# Create a minimal POM file manually
+cat > react-native-0.71.3.pom << 'EOF'
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.facebook.react</groupId>
+  <artifactId>react-native</artifactId>
+  <version>0.71.3</version>
+  <dependencies>
+    <dependency>
+      <groupId>com.facebook.fbjni</groupId>
+      <artifactId>fbjni-java-only</artifactId>
+      <version>0.2.2</version>
+    </dependency>
+    <dependency>
+      <groupId>com.facebook.yoga</groupId>
+      <artifactId>proguard-annotations</artifactId>
+      <version>1.19.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.facebook.fresco</groupId>
+      <artifactId>fresco</artifactId>
+      <version>2.6.0</version>
+    </dependency>
+  </dependencies>
+</project>
+EOF
